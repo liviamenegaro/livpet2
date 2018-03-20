@@ -1,0 +1,202 @@
+
+/* GERAL */
+
+.navbar-toggle {
+    float: left !important;
+}
+
+.navbar-brand {
+    margin-left: 23% !important;
+}
+
+.menu1 {
+    top: 7%;
+    background: #222;
+    position: absolute;
+    z-index: 1;
+    width: 55%;
+    height: 50%;
+    display: none;
+}
+.glyphicon-search {
+    color: #9d9d9d;
+    top: 16px;
+    left: 30%;
+}
+
+.menu1 a {
+    font-size: 20px;
+    color: #fff;
+}
+
+.escolha,
+.registro,
+.colaboradores {
+    margin-top: 30%;
+    display: inline-block;
+}
+
+.sub {
+    font-size: 15px;
+    display: table;
+    margin-left: 13px;
+}
+
+/* INICIO */
+
+.textoInicial {
+    margin: 25% 0 10%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.botoesInicio {
+    margin: 30% 0 10%;
+}
+
+.text-center {
+    margin: 13% 0 13%;
+}
+
+.botao1 {
+    margin: -13% 30% 13%;
+}
+
+.botao2 {
+    margin: 10% 30% 10%;
+}
+
+.btn-primary {
+    background-color: #222 !important;
+    border-color: #222 !important;
+}
+
+.btn-group-lg>.btn,
+.btn-lg {
+    padding: 20% 16%;
+    font-size: 150%;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    margin-left: -10%
+}
+
+.botao1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.botao2 a {
+    text-decoration: none;
+    color: #222;
+}
+
+/* REGISTRO */
+
+#enviar {
+    margin-left: 30%;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    padding: 15px 30px;
+}
+
+form div {
+    margin-top: 10px;
+}
+
+form{
+    margin-top: 100px;
+}
+
+/* ESCOLHA */
+
+.textInicial {
+    margin: -5% 0 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+#text {
+    margin: 5% 0 5%;
+}
+.container {
+    height: 100%;
+    width: 100%;
+}
+.pets img {
+    width: 40%;
+    height: 255px;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+.info, .infoG {
+    background-color: #333;
+    color:#fff;
+    border-radius: 5px;
+    border: 0px;   
+}
+.menosInfo, .menosInfoG {
+    background-color: #fff;
+    color:#333;
+    border-radius: 5px;
+    border: 0px;  
+}
+.ha, .haa {
+    position: absolute;
+    margin-left: 150px; 
+}
+.he, .hee {
+    position: relative;
+    display: none;
+    background-color: #222;
+    color: white;
+    height: 470px;
+    text-align: center;
+    margin-top: -10px;
+}
+.he h4, .hee h4{
+    padding-top: 5px;
+}
+
+#escolha {
+    margin: 100px 140px 0;
+}
+
+/* COLABORADORES */
+
+.textoColab, .textoInteresse {
+    margin: -5% 0 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.textoColab p, .textoInteresse p{
+    text-align: center;
+    margin: 5% 0 5%;
+}
+
+.pessoas img {
+    height: 130px;
+    width: 210px;
+    margin: 5% 25% 0;
+}   
+
+.pessoas h4 {
+    text-align: center;
+    color: #222;
+}
+
+/* INTERESSE */
+
+.info h3 {
+    text-align: center;
+}
+
+.info form {
+    margin-top: 5px;
+}

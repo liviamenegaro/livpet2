@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>LivPet</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                <a class="navbar-brand" href="inicio.html">LivPet</a>
+                <a href="#" class="glyphicon glyphicon-search">
+                      </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="escolha.html">Escolha seu pet</a>
+                    </li>
+                    <li>
+                        <a href="registro.html">Registro de pet</a>
+                    </li>
+                    <li>
+                        <a href="colaboradores.html">Colaboradores</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="menu1">
+        <ul class="coisas">
+            
+            <li class="escolha">
+                <a href="">Escolha seu pet</a>
+                <a class="sub" href="escolhaDog.html">Cachorro</a>
+                <a class="sub" href="escolhaCat.html">Gato</a>
+                <a class="sub" href="escolha.html">Todos</a>
+            </li>
+
+            <li class="registro">
+                <a href="registro.html">Registro de pet</a>
+            </li>
+
+            <li class="colaboradores">
+                <a href="colaboradores.html">Colaboradores</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="containerInteresse">
+        <div class="textoInteresse">
+            <p>UHUL! Então você gostou de um dos nossos amigos! Ficamos super felizes, com o coração quentinho. Mnade suas informações
+                de contato para podermos conversar melhor!</p>
+        </div>
+        <div class="info">
+            <h3>Informações para contato</h3>
+            <form>
+                <div class="nome">
+                    <label for="inputName" class="col-sm-2 control-label">Nome</label>
+                    <div class="col-sm-10">
+                        <input type="name" class="form-control" id="inputName" placeholder="Nome">
+                    </div>
+                </div>
+
+                <div class="email">
+                    <label for="inputEmail" class="col-sm-2 control-label">E-mail</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="E-mail para contato">
+                    </div>
+                </div>
+
+                <div class="telefone">
+                    <label for="inputTelefone" class="col-sm-2 control-label">Telefone</label>
+                    <div class="col-sm-10">
+                        <input type="number" class="form-control" id="inputTelefone" placeholder="Telefone para contato">
+                    </div>
+                </div>
+            </form>
+            <div class="enviar">
+                <button type="submit" id="enviar" class="btn btn-default btn-lg">Enviar</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</body>
+
+</html>
