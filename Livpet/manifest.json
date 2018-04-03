@@ -3,7 +3,7 @@
   "theme_color": "#e71dd9",
   "background_color": "#074b81",
   "display": "fullscreen",
-  "orientation": "portrait",
+  "orientation": "landscape",
   "Scope": "/livpet",
   "start_url": "https://liviamenegaro.github.io/livpet2/Livpet/inicio.html",
   "icons": [
