@@ -5,7 +5,7 @@
   "display": "fullscreen",
   "orientation": "landscape",
   "Scope": "/livpet",
-  "start_url": "https://github.com/liviamenegaro/livpet2/blob/master/Livpet/inicio.html",
+  "start_url": "https://liviamenegaro.github.io/livpet2/Livpet/inicio.html",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
