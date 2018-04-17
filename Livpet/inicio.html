@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,102 +7,97 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
-  <link rel="manifest" href="manifest.json">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
   <title>LivPet</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-        <a class="navbar-brand" href="inicio.html">LivPet</a>
-        <a href="#" class="glyphicon glyphicon-search">
-            </a>
+  <div class="col-md-15">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="inicio.html">LivPet</a>
+          <a href="#" class="glyphicon glyphicon-search">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="escolha.html">Escolha seu pet</a>
+            </li>
+            <li>
+              <a href="registro.html">Registro de pet</a>
+            </li>
+            <li>
+              <a href="colaboradores.html">Colaboradores</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+          </ul>
+        </div>
       </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li>
-            <a href="escolha.html">Escolha seu pet</a>
-          </li>
-          <li>
-            <a href="registro.html">Registro de pet</a>
-          </li>
-          <li>
-            <a href="colaboradores.html">Colaboradores</a>
-          </li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-        </ul>
-      </div>
-    </div>
-  </nav>
+    </nav>
+    <div class="menu1">
+      <ul class="coisas">
 
-  <div class="menu1">
-    <ul class="coisas">
-      
-      <li class="escolha">
-        <a href="">Escolha seu pet</a>
-        <a class="sub" href="escolhaDog.html">Cachorro</a>
-        <a class="sub" href="escolhaCat.html">Gato</a>
-        <a class="sub" href="escolha.html">Todos</a>
-      </li>
+        <li class="escolha">
+          <a href="">Escolha seu pet</a>
+          <a class="sub" href="escolhaDog.html">Cachorro</a>
+          <a class="sub" href="escolhaCat.html">Gato</a>
+          <a class="sub" href="escolha.html">Todos</a>
+        </li>
 
-      <li class="registro">
-        <a href="registro.html">
-          Registro de pet
-        </a>
-      </li>
+        <li class="registro">
+          <a href="registro.html">Registro de pet</a>
+        </li>
 
-      <li class="colaboradores">
-        <a href="colaboradores.html">
-          Colaboradores
-        </a>
-      </li>
-    </ul>
-  </div>
-
-  <div class="container">
-    <div class="textoInicial">
-      <p class="text-center">Hey, você! Seja bem-vindo(a) ao LivPet, estamos muito felizes por você estar aqui! O objetivo do nosso site é ajudar
-        os bichinhos que estão por aí sem uma família. Os botões abaixo podem te levar para uma página onde você pode cadastrar
-        um bichinho ou para um página onde você pode escolher seu novo amigo.</p>
-    </div>
-    <div class="botoesInicio">
-      <p class="botao1">
-        <button type="button" class="btn btn-primary btn-lg"><a href="registro.html">Registro de Pet</a></button>
-      </p>
-      <p class="botao2">
-        <button type="button" class="btn btn-default btn-lg"><a href="escolha.html">Escolher um Pet</a></button>
-      </p>
+        <li class="colaboradores">
+          <a href="colaboradores.html">Colaboradores</a>
+        </li>
+      </ul>
     </div>
 
   </div>
+
+  <div class="col-md-15" id="container">
+    <p class="text-center">Hey, você! Seja bem-vindo(a) ao LivPet, estamos muito felizes por você estar aqui! O objetivo do nosso site é ajudar
+      os bichinhos que estão por aí sem uma família. Escolha um dos botões para continuarmos</p>
+
+    <button type="button" class="btn btn-primary btn-lg">
+      <a href="registro.html">Registro de Pet</a>
+    </button>
+
+
+    <button type="button" class="btn btn-default btn-lg">
+      <a href="escolha.html">Escolher um Pet</a>
+    </button>
+
+  </div>
+
   <script>
-//This is the "Offline page" service worker
+    //This is the "Offline page" service worker
+    //Add this below content to your HTML page, or add the js file to your page at the very top to register sercie worker
+    if (navigator.serviceWorker.controller) {
+      console.log('[PWA Builder] active service worker found, no need to register')
+    } else {
+      //Register the ServiceWorker
+      navigator.serviceWorker.register('sw.js', {
+        scope: './'
+      }).then(function (reg) {
+        console.log('Service worker has been registered for scope:' + reg.scope);
+      });
+    }
+  </script>
 
-//Add this below content to your HTML page, or add the js file to your page at the very top to register sercie worker
-if (navigator.serviceWorker.controller) {
-  console.log('[PWA Builder] active service worker found, no need to register')
-} else {
-  //Register the ServiceWorker
-  navigator.serviceWorker.register('sw.js', {
-    scope: './'
-  }).then(function(reg) {
-    console.log('Service worker has been registered for scope:'+ reg.scope);
-  });
-}
-
-
-
-    </script>
   <script src="script.js"></script>
   <script src="sw.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
 </body>
 
 </html>
