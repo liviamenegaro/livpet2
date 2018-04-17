@@ -1,4 +1,4 @@
-
+/* 
 /* GERAL */
 
 .navbar-toggle {
@@ -80,6 +80,233 @@
     line-height: 1.3333333;
     border-radius: 6px;
     margin-left: -10%
+}
+
+.botao1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.botao2 a {
+    text-decoration: none;
+    color: #222;
+}
+
+/* REGISTRO */
+
+#enviar {
+    margin-left: 30%;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    padding: 15px 30px;
+}
+
+form div {
+    margin-top: 10px;
+}
+
+form{
+    margin-top: 100px;
+}
+
+/* ESCOLHA */
+
+.textInicial {
+    margin: -5% 0 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+#text {
+    margin: 5% 0 5%;
+}
+.container {
+    height: 100%;
+    width: 100%;
+}
+.pets img {
+    width: 40%;
+    height: 255px;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+.info, .infoG {
+    background-color: #333;
+    color:#fff;
+    border-radius: 5px;
+    border: 0px;   
+}
+.menosInfo, .menosInfoG {
+    background-color: #fff;
+    color:#333;
+    border-radius: 5px;
+    border: 0px;  
+}
+.ha, .haa {
+    position: absolute;
+    margin-left: 150px; 
+}
+.he, .hee {
+    position: relative;
+    display: none;
+    background-color: #222;
+    color: white;
+    height: 470px;
+    text-align: center;
+    margin-top: -10px;
+}
+.he h4, .hee h4{
+    padding-top: 5px;
+}
+
+#escolha {
+    margin: 100px 140px 0;
+}
+
+/* COLABORADORES */
+
+.textoColab, .textoInteresse {
+    margin: -5% 0 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.textoColab p, .textoInteresse p{
+    text-align: center;
+    margin: 5% 0 5%;
+}
+
+.pessoas img {
+    height: 130px;
+    width: 210px;
+    margin: 5% 25% 0;
+}   
+
+.pessoas h4 {
+    text-align: center;
+    color: #222;
+}
+
+/* INTERESSE */
+
+.info h3 {
+    text-align: center;
+}
+
+.info form {
+    margin-top: 5px;
+} */
+
+
+/* GERAL */
+
+body{
+    background-color: #009ACD;
+}
+.icon-bar{
+    background-color: #009ACD !important;
+}
+.navbar-toggle {
+    float: left !important;
+    border: none;
+}
+.navbar {
+    border-color: #FFD700;
+    background-color: #FFD700
+
+}
+
+.navbar-brand {
+    margin-left: 23% !important;
+    color: #009ACD !important;
+    font-size: 30px
+    
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #FFD700;
+    border-color: #FFD700;
+}
+
+.menu1 {
+    top: 7%;
+    background: #FFD700;
+    position: absolute;
+    z-index: 1;
+    width: 55%;
+    height: 50%;
+    display: none;
+}
+.glyphicon-search {
+    color: #009ACD;
+    top: 16px;
+    left: 25%;
+}
+
+.menu1 a {
+    font-size: 20px;
+    color: rgb(95, 95, 95);
+}
+
+.escolha,
+.registro,
+.colaboradores {
+    margin-top: 30%;
+    display: inline-block;
+}
+
+.sub {
+    font-size: 15px;
+    display: table;
+    margin-left: 13px;
+}
+
+/* INICIO */
+#container{
+    background-color: #FFD700;
+    border-radius: 15px;
+    height: 220px;
+    width: 345px;
+    margin-left: 15px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+}
+
+.botoesInicio {
+    margin: 30% 0 10%;
+}
+
+.text-center {
+    margin: 13% 0 13%;
+    padding-top: 15%;
+}
+
+.botao1 {
+    margin: -13% 30% 13%;
+}
+
+.botao2 {
+    margin: 10% 30% 10%;
+}
+
+.btn-primary {
+    background-color: #FFD700 !important;
+    border-color: #FFD700 !important;
+}
+
+.btn-group-lg>.btn,
+.btn-lg {
+    padding: 10% 15%;
+    font-size: 150%;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    margin-left: 16%;
+    margin-top: 10%;
+    
 }
 
 .botao1 a {
