@@ -6,17 +6,17 @@ self.addEventListener('install', function (event) {
         console.log('[PWA Builder] Cached index page during Install' + response.url);
         return cache.addAll([
           '/livpet2/livpet/',
-          '/livpet2/livpet/inicio.html',
+          '/livpet2/livpet/index.html',
           '/livpet2/livpet/registro.html',
           '/livpet2/livpet/escolha.html',
           '/livpet2/livpet/escolhaCat.html',
           '/livpet2/livpet/escolhaDog.html',
+          '/livpet2/livpet/escolhaDiversos.html',
           '/livpet2/livpet/colaboradores.html',
           '/livpet2/livpet/interesse.html',
+          '/livpet2/livpet/maisInfo.html',
           '/livpet2/livpet/manifest.json',
-          '/livpet2/livpet/escolha.js',
-          '/livpet2/livpet/escolhaCat.js',
-          '/livpet2/livpet/escolhaDog.js',
+          '/livpet2/livpet/style.css',
           '/livpet2/livpet/script.js',
           '/livpet2/livpet/offline.html',
           '/livpet2/livpet/img/colab1.jpg',
@@ -25,6 +25,7 @@ self.addEventListener('install', function (event) {
           '/livpet2/livpet/img/colab4.jpg',
           '/livpet2/livpet/img/gato.jpg',
           '/livpet2/livpet/img/trovao.jpg',
+          '/livpet2/livpet/img/passaro.jpg',
           '/livpet2/livpet/bootstrap/css/bootstrap.min.css',
         ]);
       });
