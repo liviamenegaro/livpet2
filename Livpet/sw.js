@@ -15,6 +15,7 @@ self.addEventListener('install', function (event) {
           '/livpet2/livpet/colaboradores.html',
           '/livpet2/livpet/interesse.html',
           '/livpet2/livpet/maisInfo.html',
+          '/livpet2/livpet/sobre.html',          
           '/livpet2/livpet/manifest.json',
           '/livpet2/livpet/style.css',
           '/livpet2/livpet/script.js',
