@@ -19,7 +19,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="inicio.html">LivPet</a>
+        <a class="navbar-brand" href="index.html">LivPet</a>
         <a href="#" class="glyphicon glyphicon-search">
         </a>
       </div>
@@ -75,26 +75,22 @@
     </div>
 
     <div class="nome">
-      <label for="inputName" class="col-sm-2 control-label">Nome</label>
+      <label for="inputName" class="col-sm-2 control-label">Nome do pet</label>
       <div class="col-sm-10">
-        <input type="name" class="form-control" id="inputName" placeholder="Nome do pet" required>
+        <input type="text" class="form-control" id="inputName"  required>
       </div>
     </div>
 
     <div class="dog-cat">
-      <label for="Check" class="col-sm-2 control-label">Cachorro/gato</label>
-      <label class="checkbox-inline" required>
-        <input type="checkbox" id="Check" value="option1" > Cachorro
-      </label>
-      <label class="checkbox-inline">
-        <input type="checkbox" id="Check" value="option2" > Gato
-      </label>
+        <label for="radio" class="col-sm-2 control-label">O pet é</label>
+        <input type="radio" id="radio1" value="option1" > Cachorro
+        <input type="radio" id="radio" value="option2" > Gato
     </div>
 
     <div class="macho-femea">
       <label for="Check" class="col-sm-2 control-label">Macho/Fêmea</label>
-      <label class="checkbox-inline"required>
-        <input type="checkbox" id="Check" value="option1" > Macho
+      <label class="checkbox-inline">
+        <input type="checkbox" id="Check1" value="option1" > Macho
       </label>
       <label class="checkbox-inline">
         <input type="checkbox" id="Check" value="option2" > Fêmea
@@ -104,21 +100,21 @@
     <div class="raca">
       <label for="inputRaca" class="col-sm-2 control-label">Raça</label>
       <div class="col-sm-10">
-        <input type="name" class="form-control" id="inputRaca" placeholder="Raça" required>
+        <input type="text" class="form-control" id="inputRaca" >
       </div>
     </div>
 
     <div class="tamanho">
       <label for="inputTamanho" class="col-sm-2 control-label">Tamanho</label>
       <div class="col-sm-10">
-        <input type="name" class="form-control" id="inputTamanho" placeholder="Exemplo: P, M, G " required>
+        <input type="text" class="form-control" id="inputTamanho" placeholder="Exemplo: P, M, G "  required>
       </div>
     </div>
 
     <div class="idade">
-      <label for="inputIdade" class="col-sm-2 control-label">Idade(em meses)</label>
+      <label for="inputIdade" class="col-sm-2 control-label">Data de nascimento do pet</label>
       <div class="col-sm-10">
-        <input type="number" class="form-control" id="inputIdade" placeholder="Idade" required>
+        <input type="month" class="form-control" id="inputIdade"  required>
       </div>
     </div>
 
@@ -166,11 +162,11 @@
 
     <div class="castracao">
       <label for="Check" class="col-sm-2 control-label">Castração</label>
-      <label class="checkbox-inline" required>
-        <input type="checkbox" id="Check" value="option1" > Sim
+      <label class="checkbox-inline" >
+        <input type="checkbox" id="Check3" value="option1" > Sim
       </label>
       <label class="checkbox-inline">
-        <input type="checkbox" id="Check" value="option2" > Não
+        <input type="checkbox" id="Check4" value="option2" > Não
       </label>
     </div>
 
@@ -182,9 +178,9 @@
     </div>
 
     <div class="responsavel">
-      <label for="inputResponsavel" class="col-sm-2 control-label">Responsável</label>
+      <label for="inputResponsavel" class="col-sm-2 control-label">Nome do responsável pelo pet</label>
       <div class="col-sm-10">
-        <input type="name" class="form-control" id="inputResponsavel" placeholder="Nome do responsável pelo pet até então" required>
+        <input type="text" class="form-control" id="inputResponsavel" required>
       </div>
     </div>
 
@@ -195,7 +191,7 @@
       </div>
     </div>
 
-    <button type="submit" id="enviar" class="btn btn-default btn-lg" value="submit">Enviar</button>
+    <input type="submit" id="enviar" class="btn btn-default btn-lg" value="Enviar">
   
   </form>
 
