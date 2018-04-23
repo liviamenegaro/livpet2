@@ -46,6 +46,10 @@
     <div class="menu1">
       <ul class="coisas">
 
+        <li class="home">
+          <a href="index.html">Home</a>
+        </li>
+
         <li class="escolha">
           <a href="escolha.html">Escolha seu pet</a>
         </li>
@@ -57,6 +61,11 @@
         <li class="colaboradores">
           <a href="colaboradores.html">Colaboradores</a>
         </li>
+
+        <li class="sobre">
+          <a href="sobre.html">Sobre</a>
+        </li>
+
       </ul>
     </div>
 
@@ -66,31 +75,26 @@
     <p class="text-center"><b>Hey, você! Seja bem-vindo(a) ao LivPet, estamos muito felizes por você estar aqui! O objetivo do nosso site é ajudar
       os bichinhos que ainda estão sem uma família. Escolha um das opções a seguir para continuarmos</b></p>
 
-    <button type="button" class="btn btn-primary btn-lg">
-      <a href="registro.html">Registro de Pet</a>
-    </button>
+    <p> <a href="registro.html" class="btn btn-primary btn-lg" role="button">Registro de Pet</a></p>
 
-
-    <button type="button" class="btn btn-default btn-lg">
-      <a href="escolha.html">Escolher um Pet</a>
-    </button>
+    <p> <a href="escolha.html" class="btn btn-default btn-lg" role="button">Escolher um Pet</a></p>
 
   </div>
   <script src="sw.js"></script>
   <script>
-             if (navigator.serviceWorker.controller) {
-                console.log('[PWA Builder] active service worker found, no need to register')
-              } else {
-                navigator.serviceWorker.register('sw.js', {
-                  scope: './'
-                }).then(function (reg) {
-                  console.log('Service worker has been registered for scope:' + reg.scope);
-                });
-              };
+    if (navigator.serviceWorker.controller) {
+      console.log('[PWA Builder] active service worker found, no need to register')
+    } else {
+      navigator.serviceWorker.register('sw.js', {
+        scope: './'
+      }).then(function (reg) {
+        console.log('Service worker has been registered for scope:' + reg.scope);
+      });
+    };
   </script>
 
-  <script src="script.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script async src="script.js"></script>
+  <script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
 </body>
 
