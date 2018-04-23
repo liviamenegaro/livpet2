@@ -35,23 +35,14 @@ body{background-color: #009ACD;}
 .btn-group-lg>.btn,.btn-lg {padding: 10% 15%;font-size: 150%;line-height: 1.3333333;border-radius: 6px;margin-left: 16%;margin-top: 10%;}
 
 .btn-group-lg>.btn,.btn-lg a{color:dimgray;}
- 
+
 /* REGISTRO */
 
-#enviar {
-    margin-left: 30%;
-    margin-top: 7%;
-    margin-bottom: 5%;
-    padding: 15px 30px;
-}
+#enviar {margin-left: 30%;margin-top: 7%;margin-bottom: 5%;padding: 15px 30px;}
 
-form div {
-    margin-top: 10px;
-}
+form div {margin-top: 10px;}
 
-form{
-    margin-top: 100px;
-}
+form{margin-top: 100px;}
 
 /* ESCOLHA */
 
