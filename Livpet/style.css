@@ -46,63 +46,20 @@ form{margin-top: 100px;}
 
 /* ESCOLHA */
 
+.textInicial {background-color: #FFD700;border-radius: 15px;height: 200px;width: 370px;margin-left: 24px;font-family: 'Amatic SC', cursive !important;font-size: 25px;padding-top: 1px;}
 
-.textInicial {
-    margin: -5% 0 0;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-    border-radius: 5px;
-}
+#text {margin: 5% 0 5% !important;padding-top: 4% !important;}
 
-#text {
-    margin: 5% 0 5%;
-}
-.container {
-    height: 100%;
-    width: 100%;
-}
-.pets img {
-    width: 40%;
-    height: 255px;
-    margin-left: 30%;
-    margin-top: 3%;
-}
-.info, .infoG {
-    background-color: #333;
-    color:#fff;
-    border-radius: 5px;
-    border: 0px;   
-}
-.menosInfo, .menosInfoG {
-    background-color: #fff;
-    color:#333;
-    border-radius: 5px;
-    border: 0px;  
-}
-.ha, .haa {
-    position: absolute;
-    margin-left: 150px; 
-}
-.he, .hee {
-    position: relative;
-    display: none;
-    background-color: #222;
-    color: white;
-    height: 470px;
-    text-align: center;
-    margin-top: -10px;
-}
-.he h4, .hee h4{
-    padding-top: 5px;
-}
 
-#escolha {
-    margin: 100px 140px 0;
-}
+.escolhasSub a{color: dimgray;font-family: 'Amatic SC', cursive !important;font-style: italic;text-decoration: underline;font-size: 35px;padding-top: 10px;margin-left: 20px;}
+
+.pets h3, .pets h4{text-align: center;}
+
+#botoesEscolha a, #botoesEscolha1 a, #botoesEscolha2 a{font-size: 150%;margin-left: 15px;color:dimgray;}
 
 /* COLABORADORES */
-.textoColab, .textoInteresse{background-color: #FFD700;border-radius: 15px;height: 100px;width: 370px;margin-left: 24px;font-family: 'Amatic SC', cursive !important;font-size: 25px;padding-top: 1px;}
+
+.textoColab{background-color: #FFD700;border-radius: 15px;height: 100px;width: 370px;margin-left: 24px;font-family: 'Amatic SC', cursive !important;font-size: 25px;padding-top: 1px;}
 
 .textoColab p, .textoInteresse p{text-align: center;margin: 5% 0 5%;}
 
@@ -114,10 +71,8 @@ form{margin-top: 100px;}
 
 /* INTERESSE */
 
-.info h3 {
-    text-align: center;
-}
+.textoInteresse{background-color: #FFD700;border-radius: 15px;height: 170px;width: 370px;margin-left: 24px;font-family: 'Amatic SC', cursive !important;font-size: 25px;padding-top: 1px;}
 
-.info form {
-    margin-top: 5px;
-}
+.info h3 {text-align: center;}
+
+.info form {margin-top: 5px;}
