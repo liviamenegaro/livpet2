@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
     <title>LivPet</title>
 </head>
 
@@ -19,7 +20,7 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                <a class="navbar-brand" href="inicio.html">LivPet</a>
+                <a class="navbar-brand" href="index.html">LivPet</a>
                 <a href="#" class="glyphicon glyphicon-search">
                     </a>
             </div>
@@ -43,12 +44,9 @@
 
     <div class="menu1">
         <ul class="coisas">
-        
+
             <li class="escolha">
-                <a href="">Escolha seu pet</a>
-                <a class="sub" href="escolhaDog.html">Cachorro</a>
-                <a class="sub" href="escolhaCat.html">Gato</a>
-                <a class="sub" href="escolha.html">Todos</a>
+                <a href="escolha.html">Escolha seu pet</a>
             </li>
 
             <li class="registro">
@@ -67,45 +65,40 @@
 
     <div class="containerEscolha">
         <div class="textInicial">
-            <p class="text-center" id="text"> AAH, que bom que você ainda está aqui! Nessa página você pode ver todos os nossos amiguinhos de quatro (talvez
-                menos) patas. Esperamos que você possa ajudar um deles! Fique a vontade.</p>
+            <p class="text-center" id="text"><b>AAH, que bom que você ainda está aqui! Nessa página você pode ver todos os nossos amiguinhos de quatro (talvez
+                menos) patas. Esperamos que você possa ajudar um deles! Fique a vontade.</b></p>
+        </div>
+
+        <div class="escolhasSub">
+            <a href="escolhaDog.html"><b>Cachorros</b></a>
+            <a href="escolhaCat.html"><b>Gatos</b></a>
+            <a href="escolhaDiversos.html"><b>Diversos</b></a>
+            <a href="escolha.html"><b>Todos</b></a>
+            
         </div>
 
         <div class="pets">
             <div class="cachorro">
-                <img src="img/trovao.jpg" alt="img/trovao.jpg">
-                <div class="ha">
-                    <h4>Nome: Felaks</h4>
-                    <h4>Tamanho: M</h4>
-                    <button class="info">
-                        + Informações
-                    </button>
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="img/trovao.jpg" alt="img/trovao.jpg">
+                            <div class="caption">
+                                <h3>Felaks</h3>
+                                <h4>Porte: M</h4>
+                                <p id="botoesEscolha"><a href="maisInfo.html" class="btn btn-primary" role="button">+ Informações</a> <a href="interesse.html"
+                                        class="btn btn-default" role="button">Tenho interesse!</a></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="he">
-                    <h4><b>Nome:</b> Felaks</h4>
-                    <h4><b>Tamanho:</b> M</h4>
-                    <h4><b>Idade:</b> 12 meses</h4>
-                    <h4><b>Características:</b> brincalhão, carinhoso</h4>
-                    <h4><b>História:</b> Encontrado na FURG em um dia de temporal</h4>
-                    <h4><b>Peso:</b> 2 kg</h4>
-                    <h4><b>Saúde:</b> Nenhum problema de saúde!</h4>
-                    <h4><b>Vacinação:</b> Todas as vacinas em dia</h4>
-                    <h4><b>Pelo:</b> Preto e branco</h4>
-                    <h4>Macho</h4>
-                    <h4><b>Castração:</b> castrado</h4>
-                    <h4><b>Alimentação:</b> ração blablabla</h4>
-                    <button class="menosInfo">
-                        - Informações
-                    </button>
-                </div>
-                <button class="btn btn-primary" id="escolha"><a href="interesse.html">Tenho interesse!</a></button>
             </div>
+
         </div>
     </div>
 
-
     <script src="script.js"></script>
-    <script src="escolhaDog.js"></script>
+    <script src="escolha.js"></script>
 </body>
 
 </html>
