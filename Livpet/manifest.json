@@ -1,10 +1,10 @@
 {
   "name": "livpet",
-  "theme_color": "#e71dd9",
-  "background_color": "#074b81",
+  "theme_color": "#ffd700",
+  "background_color": "#30a5a6",
   "display": "fullscreen",
   "Scope": "/livpet",
-  "start_url": "https://liviamenegaro.github.io/livpet2/Livpet/inicio.html",
+  "start_url": "https://liviamenegaro.github.io/livpet2/Livpet/index.html",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
