@@ -46,6 +46,7 @@ form{margin-top: 100px;}
 
 /* ESCOLHA */
 
+
 .textInicial {
     margin: -5% 0 0;
     border-style: solid;
@@ -101,30 +102,15 @@ form{margin-top: 100px;}
 }
 
 /* COLABORADORES */
+.textoColab, .textoInteresse{background-color: #FFD700;border-radius: 15px;height: 100px;width: 370px;margin-left: 24px;font-family: 'Amatic SC', cursive !important;font-size: 25px;padding-top: 1px;}
 
-.textoColab, .textoInteresse {
-    margin: -5% 0 0;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-    border-radius: 5px;
-}
+.textoColab p, .textoInteresse p{text-align: center;margin: 5% 0 5%;}
 
-.textoColab p, .textoInteresse p{
-    text-align: center;
-    margin: 5% 0 5%;
-}
+.pessoas h4, .pessoas h3{text-align: center;color: #222;}
 
-.pessoas img {
-    height: 130px;
-    width: 210px;
-    margin: 5% 25% 0;
-}   
+#colab1, #colab2, #colab3, #colab4{background-color: #FF7F00;padding-top: 10px;}
 
-.pessoas h4 {
-    text-align: center;
-    color: #222;
-}
+#um, #dois, #tres, #quatro {padding-top: 10px;}
 
 /* INTERESSE */
 
